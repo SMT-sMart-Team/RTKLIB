@@ -3,6 +3,8 @@
 # make all cui applications by gcc
 #
 
+export CC=arm-linux-gnueabihf-gcc
+
 echo; echo % pos2kml/gcc
 cd pos2kml/gcc
 make $1
